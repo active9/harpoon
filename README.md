@@ -1,4 +1,5 @@
 #Harpoon
+![enter image description here](https://raw.githubusercontent.com/active9/harpoon/master/files/default.png)
 
 Harpoon is a file send server written in Javascript using NodeJS & Express.
 
