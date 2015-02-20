@@ -30,7 +30,7 @@ Using Git:
 
 Using NPM:
 
-    npm install harpoon -g
+    npm install harpoon-server -g
 
 Once installed run
 

@@ -1,8 +1,7 @@
 {
-  "name": "harpoon",
+  "name": "harpoon-server",
   "description": "Harpoon File Send Server",
   "version": "0.0.1",
-  "private": true,
   "dependencies": {
     "commander": "*",
     "express": "4.x",
@@ -21,5 +20,26 @@
     "cluster-server": "*",
     "express-ping": "*",
     "peer-store": "*"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/active9/harpoon"
+  },
+  "keywords": [
+    "Harpoon",
+    "File",
+    "Send",
+    "Server"
+  ],
+  "author": "Active 9 LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/active9/harpoon/issues"
+  },
+  "homepage": "https://github.com/active9/harpoon"
 }
