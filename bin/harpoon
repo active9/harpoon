@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+'use strict';
+
+var path = require('path'),
+    fs = require('fs');
+
+process.mainModule.paths[0] = path.resolve(process.mainModule.paths[0].replace("bin",""));
+process.mainModule.filename = path.resolve(process.mainModule.filename.replace("bin",""));
+
+var harpoon = require('./lib/harpoon.js'),
+    options = {};
+
+if (fs.existsSync('../config.js')) {
+	options = fs.readFileSync('../config.js');
+} else if (fs.existsSync('./config.js')) {
+	options = fs.readFileSync('./config.js');
+}
+
+harpoon(options);

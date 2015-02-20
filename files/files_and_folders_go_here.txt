@@ -1,0 +1,1 @@
+Place files and folders you wish to serve here. Or modify the config file to change the base directory to serve files from.

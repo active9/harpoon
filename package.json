@@ -1,0 +1,25 @@
+{
+  "name": "harpoon",
+  "description": "Harpoon File Send Server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "commander": "*",
+    "express": "4.x",
+    "path": "*",
+    "toobusy-js": "*",
+    "uptimer": "*",
+    "express-session": "*",
+    "spider-detector": "*",
+    "express-cache-response-directive": "*",
+    "express-antiscan": "*",
+    "express-anti-leech": "*",
+    "sql-injection": "*",
+    "morgan": "*",
+    "connect-qos": "*",
+    "micron-throttle": "*",
+    "cluster-server": "*",
+    "express-ping": "*",
+    "peer-store": "*"
+  }
+}
