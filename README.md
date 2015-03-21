@@ -50,6 +50,8 @@ For example: If you installed harpoon and wish to run it from /var/www/harpoon y
 
 For an example configuration see the config.js distributed with this source.
 
+IMPORTANT: Be sure to create your own unique serverSecret phrase in your configuration file.
+
 ###OPTIONS
 
  - rfcname - the RFC server name
