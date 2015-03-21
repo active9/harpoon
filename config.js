@@ -3,7 +3,8 @@ module.exports = {
 	localip: '127.0.0.1',
 	hosts: ['localhost', '127.0.0.1'],									// Allowed Hosts For Clustering (This should always have localhost and 127.0.0.1)
 	peers: ['127.0.0.1'],											// Allowed Peers For cluster Peering
-	filesDirectory: __dirname + "files/",									// Absolute path with trailing slash or relative path with trailing slash
+	filesDirectory: __dirname + "/files/",									// Allowed Peers For cluster Peering
+	logsDirectory: __dirname + "./logs/",									// Absolute path with trailing slash or relative path with trailing slash
 	port: 8080,												// Server Port
 	maxLag: 5000,                                                              				// Maximum Wait Time In Milliseconds
 	serverSecret: "ASaltyPhras3",                                        				// Used For Session Caching

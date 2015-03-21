@@ -1,11 +1,10 @@
 {
   "name": "harpoon-server",
   "description": "Harpoon File Send Server",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "dependencies": {
     "commander": "*",
     "express": "4.x",
-    "path": "*",
     "toobusy-js": "*",
     "uptimer": "*",
     "express-session": "*",
